@@ -31,6 +31,7 @@ campus is designed to be a drop-in replacement housing for a framework 13 that f
 - m2 x 4mm heat set inserts
 - m2 x 2.5mm heat set inserts
 - 5x m2 x 20mm flat head hex screws (to screw the chassis together)
+- 3x m2 x 8mm set screws (for the knobs)
 - 4x 1" OD rubber bumpers
 - variety of double sided tapes
 - epoxy
