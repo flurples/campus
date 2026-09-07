@@ -1,5 +1,5 @@
 # campus
-kailh choc mechanical keyboard conversion housing for a framework 13
+mechanical keyboard conversion for a framework 13
 
 <img width="4032" height="2268" alt="IMG_3377-adjusted" src="https://github.com/user-attachments/assets/4af09b16-ec48-4aa3-8e5a-4bf1da6de3fe" />
 build video: https://youtu.be/kGHAUogFsYY
