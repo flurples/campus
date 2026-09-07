@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "campus-parts")(type "KiCad")(uri "${KIPRJMOD}/campus-parts.pretty")(options "")(descr ""))
+)

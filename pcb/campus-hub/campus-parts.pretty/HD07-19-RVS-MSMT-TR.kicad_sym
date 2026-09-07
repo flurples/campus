@@ -1,0 +1,215 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "HD07-19-RVS-MSMT-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -15.24 38.862 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "HD07-19-RVS-MSMT-TR" (id 1) (at -15.24 -48.26 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "HD07-19-RVS-MSMT-TR:SAMESKY_HD07-19-RVS-MSMT-TR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.0" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "3.22mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Same Sky" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "HD07-19-RVS-MSMT-TR_0_0"
+      (rectangle (start -15.24 -45.72) (end 15.24 38.1)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 30.48 0) (length 5.08)
+        (name "TMDS_DATA2+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 27.94 0) (length 5.08)
+        (name "TMDS_DATA2_SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 25.4 0) (length 5.08)
+        (name "TMDS_DATA2-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 20.32 0) (length 5.08)
+        (name "TMDS_DATA1+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 17.78 0) (length 5.08)
+        (name "TMDS_DATA1_SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 15.24 0) (length 5.08)
+        (name "TMDS_DATA1-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "TMDS_DATA0+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 7.62 0) (length 5.08)
+        (name "TMDS_DATA0_SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "TMDS_DATA0-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at -20.32 0.0 0) (length 5.08)
+        (name "TMDS_CLOCK+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -2.54 0) (length 5.08)
+        (name "TMDS_CLOCK_SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at -20.32 -5.08 0) (length 5.08)
+        (name "TMDS_CLOCK-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "CEC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at -20.32 -17.78 0) (length 5.08)
+        (name "SCL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -20.32 0) (length 5.08)
+        (name "SDA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 -43.18 0) (length 5.08)
+        (name "DDC/CEC_GROUND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 35.56 0) (length 5.08)
+        (name "+5V_POWER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -25.4 0) (length 5.08)
+        (name "HOT_PLUG_DETECT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -30.48 0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -12.7 0) (length 5.08)
+        (name "UTILITY"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -33.02 0) (length 5.08)
+        (name "SHIELD__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -35.56 0) (length 5.08)
+        (name "SHIELD__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -20.32 -38.1 0) (length 5.08)
+        (name "SHIELD__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SH4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
