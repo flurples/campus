@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mbk)(type KiCad)(uri ${KIPRJMOD}/mbk.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name campus-parts)(type KiCad)(uri ${KIPRJMOD}/campus-parts.pretty)(options "")(descr ""))
+)
